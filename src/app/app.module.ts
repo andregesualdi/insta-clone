@@ -12,6 +12,7 @@ import { CadastroComponent } from './core/components/acesso/cadastro/cadastro.co
 import { AutenticacaoService } from './core/services/autenticacao.service';
 import { HomeComponent } from './core/components/home/home.component';
 import { PublicacoesComponent } from './core/components/home/publicacoes/publicacoes.component';
+import { AutenticacaoGuardService } from './core/services/autenticacao-guard.service';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { PublicacoesComponent } from './core/components/home/publicacoes/publica
     ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [AutenticacaoService],
+  providers: [AutenticacaoService, AutenticacaoGuardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
