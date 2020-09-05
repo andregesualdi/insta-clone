@@ -1,6 +1,6 @@
 # InstaClone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+Projeto de treinamento de Angular e Firebase desenvolvido em Angular 10. Adaptado para Angular 10 a partir do Angular 4, durante o progresso do curso.
 
 ## Development server
 
